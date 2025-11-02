@@ -25,7 +25,7 @@ This mini-project demonstrates how `termcolor` can print motivational messages b
   - *angry → red*  
   - *tired → cyan*  
   - *anything else → green*
-- **Lines 27 – 29:** Main block prompts the user (`input()`) and calls the function.
+- **Lines 27 - 29:** Main block prompts the user (`input()`) and calls the function.
 
 ✅ One function, one control statement, comments, and the code runs successfully.
 
@@ -42,4 +42,4 @@ If expanded into a bigger project, this package could power a **CLI Wellness Tra
 
 ## Author
 **Hamdah Omotosho**  
-Rutgers University — Fall 2025
+Rutgers University - Fall 2025
