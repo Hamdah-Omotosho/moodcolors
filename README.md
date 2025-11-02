@@ -1,7 +1,7 @@
 # Mood of the Day 🌈
 
 ## Package Summary
-`termcolor` is a lightweight Python package for printing coloured, styled text in the terminal. It helps make console programs clearer — for example, displaying success messages in green, warnings in yellow, and errors in red.  
+`termcolor` is a lightweight Python package for printing coloured, styled text in the terminal. It helps make console programs clearer for example, displaying success messages in green, warnings in yellow, and errors in red.  
 This mini-project demonstrates how `termcolor` can print motivational messages based on the user’s mood.
 
 ---
@@ -12,12 +12,19 @@ This mini-project demonstrates how `termcolor` can print motivational messages b
 1. **Install the required package**
    ```bash
    python3 -m pip install termcolor
+   ```
+
+2. **Run the program**
+   ```bash
+   python3 mood.py
+   ```
+
 ---
 
 ## Code Explanation
 **File to run:** `mood.py`
 
-- **Lines 1 – 6:** Import and setup (`from termcolor import colored`).
+- **Lines 1 - 6:** Import and setup (`from termcolor import colored`).
 - **Lines 8 – 25:** Function `show_mood_message(mood)` decides what message and colour to display based on user input.
 - **Lines 10 – 24:** `if / elif / else` handles each mood:
   - *happy → magenta*  
@@ -25,7 +32,7 @@ This mini-project demonstrates how `termcolor` can print motivational messages b
   - *angry → red*  
   - *tired → cyan*  
   - *anything else → green*
-- **Lines 27 - 29:** Main block prompts the user (`input()`) and calls the function.
+- **Lines 27 – 29:** Main block prompts the user (`input()`) and calls the function.
 
 ✅ One function, one control statement, comments, and the code runs successfully.
 
